@@ -37,7 +37,6 @@ class word:
 def main():
     for w in words():
         w = word(w)
-        print(w.word)
         while w.remaining_guesses != 0:
             print("Word: {}".format(w.formatWord()))
             print("You have {} guesses left".format(w.remaining_guesses))
